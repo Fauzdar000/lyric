@@ -1,0 +1,24 @@
+button {
+  background: #ff6f91;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 10px rgba(255, 111, 145, 0.4);
+  transition: all 0.3s ease;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+  background: #ff4b69;
+  box-shadow: 0 8px 15px rgba(255, 75, 105, 0.6);
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(255, 75, 105, 0.3);
+}
